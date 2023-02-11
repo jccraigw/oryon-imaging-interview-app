@@ -1,0 +1,17 @@
+<template>
+  <lightning-card title="Account Management" icon-name="custom:custom14">
+    <div class="slds-m-around_medium">
+      <p>View and delete accounts </p>
+      <div>
+        <lightning-datatable
+            key-field="Id"
+            data={data}
+            columns={columns}
+            column-widths-mode="auto"
+            hide-checkbox-column
+            onrowaction={handleRowAction}>
+        </lightning-datatable>
+      </div>
+    </div>
+  </lightning-card>
+</template>
