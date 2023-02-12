@@ -10,8 +10,14 @@ public with sharing class AccountController {
 
   @AuraEnabled
   public static String deleteSelectedAccount(String Id) {
-    Account acc = [SELECT Id  FROM Account WHERE Id = :Id WITH SECURITY_ENFORCED];
+    Account acc = [SELECT Id , (SELECT Id from Cases ), (SELECT Id,name from Opportunities) FROM Account WHERE Id = :Id WITH SECURITY_ENFORCED];
     try {
+      if(acc.Cases.size() > 0){
+        delete acc.Cases;
+      }
+      if(acc.Opportunities.size() > 0){
+        delete acc.Opportunities;
+      }
       delete acc;
       return 'Success';
     } catch (DmlException e) {
