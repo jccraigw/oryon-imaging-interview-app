@@ -20,7 +20,7 @@ The goal of this feature is to view all active accounts in a list and allow user
 
 ## Getting Started
 
-- Login to the follow trailhead playground: https://mindful-hawk-5inzoh-dev-ed.trailblaze.lightning.force.com
+- Login to the following trailhead playground: https://mindful-hawk-5inzoh-dev-ed.trailblaze.lightning.force.com
 
 - The feature sits on the Sales app home page. Located on the right side. 
 
