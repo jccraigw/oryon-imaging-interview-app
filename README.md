@@ -1,18 +1,26 @@
-# Salesforce DX Project: Next Steps
+# Account Management LWC<!-- omit in toc -->
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+## Table of Content<!-- omit in toc -->
 
-## How Do You Plan to Deploy Your Changes?
+- [Program Structure](#program-structure)
+  - [Feature](#feature)
+  - [Feature Goal](#feature-goal)
+- [Getting Started](#getting-started)
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+## Program Structure
 
-## Configure Your Salesforce DX Project
+### Feature
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+Account Management 
 
-## Read All About It
+### Feature Goal
 
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+The goal of this feature is to view all active accounts in a list and allow user to delete one account at a time.
+
+
+## Getting Started
+
+- Login to the follow trailhead playground: https://mindful-hawk-5inzoh-dev-ed.trailblaze.lightning.force.com
+
+- The feature sits on the Sales app home page. Located on the right side. 
+
